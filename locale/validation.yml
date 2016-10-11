@@ -1,0 +1,76 @@
+validation:
+  accepted: "Вы должны принять :attribute."
+  active_url: "Поле :attribute не является валидным URL."
+  after: "Поле :attribute должно быть датой после :date."
+  alpha: "Поле :attribute должно содержать только буквы."
+  alpha_dash: "Поле :attribute может содержать только буквы, цифры и чёрточки."
+  alpha_num: "Поле :attribute может содержать только буквы и цифры."
+  array: "Поле :attribute должно быть массивом."
+  before: "Поле :attribute должно быть датой до :date."
+  between:
+    numeric: "Количество в поле :attribute должно быть между :min и :max."
+    file: "Размер файла в поле :attribute должен иметь размер между :min и :max килобайт."
+    string: "Количество символов в поле :attribute должно быть между :min и :max символов."
+    array: "Количество элементов в поле :attribute должно быть между :min и :max."
+  boolean: "Поле :attribute должно быть истинным или ложным (булево)."
+  confirmed: "Поле :attribute не совпадает с подтверждением."
+  date: "Поле :attribute не является валидной датой."
+  date_format: "Поле :attribute не совпадает с форматом :other."
+  different: "Поля :attribute и :other должны отличаться друг от друга."
+  digits: "Поле :attribute должно содержать :digits цифр."
+  digits_between: "Поле :attribute должно содержать от :min до :max цифр."
+  distinct: "Поле :attribute имеет дублирующее значение."
+  email: "Поле :attribute должно быть валидным email адресом."
+  exists: "Выбранное значение для :attribute некорректно."
+  filled: "Поле :attribute должно быть заполнено."
+  image: "Поле :attribute должно быть изображением."
+  in: "Выбранное значение для :attribute ошибочно."
+  in_array: "Поле :attribute отсутствует в поле :other."
+  integer: "Поле :attribute должно быть целым числом."
+  ip: "Поле :attribute должно быть валидным IP адресом."
+  json: "Поле :attribute должно быть валидной JSON строкой."
+  max:
+    numeric: "Поле :attribute не должно быть больше :max."
+    file: "Размер файла в поле :attribute не должен быть больше :max килобайт."
+    string: "Поле :attribute не должно содержать больше :max символов."
+    array: "Поле :attribute не должно содержать больше :max элементов."
+  mimes: "Поле :attribute должно быть файлом одного из следующих типов: :values."
+  min:
+    numeric: "Число в поле :attribute должно быть не меньше :min."
+    file: "Файл в поле :attribute должен иметь размер не меньше :min килобайт."
+    string: "Строка в поле :attribute должна иметь не меньше :min символов."
+    array: "Поле :attribute должно содержать по меньшей мере :min элементов."
+  not_in: "Выбранное значение для :attribute ошибочно."
+  numeric: "Поле :attribute должно быть числом."
+  present: "Поле :attribute должно присутствовать."
+  regex: "Формат поля :attribute не является корректным."
+  required: "Поле :attribute обязательно для заполнения."
+  required_if: "Поле :attribute должно быть заполнено, когда поле :other равно :value."
+  required_unless: "Поле :attribute должно быть заполнено, когда поле :other не равно :values."
+  required_with: "Поле :attribute должно быть заполнено, когда есть одно из значений :values."
+  required_with_all: "Поле :attribute должно быть заполнено, когда есть значения :values."
+  required_without: "Поле :attribute должно быть заполнено, когда значения :values отсутствуют."
+  required_without_all: "Поле :attribute должно быть заполнено, когда ни одно из значений :values не присутствует."
+  same: "Значение :attribute должно совпадать с :other."
+  size:
+    numeric: "Поле :attribute должно быть равным :size."
+    file: "Размер файла в поле :attribute должен быть равен :size Килобайт(а)."
+    string: "Количество символов в поле :attribute должно быть равным :size."
+    array: "Количество элементов в поле :attribute должно быть равным :size."
+  string: "Поле :attribute должно быть строкой."
+  timezone: "Поле :attribute должно быть действительным часовым поясом."
+  unique: "Такое значение поля :attribute уже существует."
+  url: "Поле :attribute имеет ошибочный формат."
+
+  attributes:
+    username: имя пользователя
+    password: пароль
+    email: email
+    title: название
+    content: контент
+    name_singular: в ед. числе
+    name_plural: во мн. числе
+
+  custom:
+    username:
+      regex: "Имя пользователя должно содержать только латинские буквы, цифры и чёрточки."
